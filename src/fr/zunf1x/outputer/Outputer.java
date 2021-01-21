@@ -9,7 +9,11 @@ public class Outputer {
 	private static JPanel panel;
 	
 	public static void main(String[] args) {
-		
+		createDisplay();
+	}
+	
+	private static void createDisplay() {
+		frame = new OutputerFrame();
 	}
 	
 	public static JFrame getFrame() {
